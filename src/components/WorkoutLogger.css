@@ -1,0 +1,77 @@
+.workout-logger {
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  background: rgba(173, 216, 255, 0.07);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin: auto;
+  color: #2a2a2a;
+}
+
+.workout-logger h3 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #2d4059;
+  margin-bottom: 1.5rem;
+}
+
+.workout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.workout-form label {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.workout-form input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #eaf6ff;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.workout-form input:focus {
+  border: 1px solid #84bdfc;
+  background-color: #ffffff;
+}
+
+.workout-form > div {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.workout-form > div > div {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.workout-form button {
+  padding: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #4169e1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.workout-form button:hover {
+  background-color: #355acb;
+}
