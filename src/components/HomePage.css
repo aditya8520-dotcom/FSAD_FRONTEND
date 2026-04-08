@@ -1,0 +1,47 @@
+/* HomePage.css */
+
+.homepage {
+  background: linear-gradient(
+      rgba(215, 235, 255, 0.02),
+      rgba(215, 235, 255, 0.02)
+    ),
+    url("/fit.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  /* REMOVE THESE */
+  /* padding: 0 5rem; */
+  /* position: fixed; */
+}
+
+.welcome-box {
+  background: rgba(157, 185, 238, 0.08);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 3.5rem 4rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+}
+
+.welcome-box h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1f3a93;
+  font-weight: 700;
+}
+
+.welcome-box p {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #1e5b97;
+  line-height: 1.6;
+}

@@ -1,0 +1,133 @@
+/* AuthPage.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.auth-container {
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("/fit.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.auth-box {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 20px;
+  padding: 3rem 2.5rem;
+  width: 380px;
+  max-width: 90%;
+
+  box-shadow: 0 15px 45px rgba(0,0,0,0.4);
+  text-align: center;
+
+  color: white;
+}
+
+.auth-box:hover {
+  transform: scale(1.01);
+}
+
+.auth-box h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00e5ff; /* brighter heading */
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  display: block;
+  color: #e0f7fa; /* light text for dark bg */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #b0e0f0;
+
+  background-color: #f6fcff;
+  color: #000;              /* ✅ FIX: text visible */
+  font-size: 1rem;
+
+  transition: all 0.2s ease;
+}
+
+.input-group input::placeholder {
+  color: #777;              /* better placeholder */
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #00e5ff;
+  background-color: #ffffff;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 0.7rem;
+  background: linear-gradient(135deg, #00bcd4, #0097a7);
+  border: none;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.auth-button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #0097a7, #007c91);
+}
+
+.success-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 0.6rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.auth-box p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #e0f7fa;
+}
+
+.auth-box a {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.weekly-progress-chart {
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(18, 138, 213, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin: 2rem auto;
+  color: #2a2a2a;
+}
+
+.weekly-progress-chart h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.weekly-progress-chart canvas {
+  max-width: 100%;
+}
